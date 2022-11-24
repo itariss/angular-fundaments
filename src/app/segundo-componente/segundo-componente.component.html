@@ -1,3 +1,8 @@
 <h2>Aprofundando em Templates</h2>
 <p>{{ nome | uppercase }}</p>
 <p>{{ dataNascimento | date | date: "dd/MM/yyyy" }}</p>
+<img [src]="urlImagem" width="300" />
+<br />
+<button (click)="alertDataNascimento()" type="button" class="btn btn-primary">
+	Clique
+</button>

@@ -1,0 +1,15 @@
+.lista {
+	list-style: none;
+	width: 10rem;
+}
+
+.lista span {
+	background-color: green;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 7px;
+}
+
+ul .esgotado {
+	background-color: gray;
+}

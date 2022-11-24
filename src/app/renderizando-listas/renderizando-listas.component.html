@@ -1,0 +1,10 @@
+<h2>Renderizando dados em array</h2>
+<ul class="lista">
+	<li *ngFor="let celular of celulares">
+		<strong>Nome: {{ celular.nome }}</strong>
+		<p>Descrição: {{ celular.descricao }}</p>
+		<span [ngClass]="celular.emEstoque ? '' : 'esgotado'">
+			Situação: {{ celular.emEstoque ? "disponível" : "esgotado" }}
+		</span>
+	</li>
+</ul>
