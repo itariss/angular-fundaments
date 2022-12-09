@@ -16,6 +16,8 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
 import { TesteServicoComponent } from './teste-servico/teste-servico.component';
 import { TesteServico2Component } from './teste-servico2/teste-servico2.component';
 import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
 	declarations: [
@@ -31,7 +33,9 @@ import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
   ComponenteFilhoComponent,
   TesteServicoComponent,
   TesteServico2Component,
-  CicloDeVidaComponent
+  CicloDeVidaComponent,
+  CicloDeVidaPaiComponent,
+  CardComponent
 	],
 	imports: [BrowserModule, AppRoutingModule, FormsModule],
 	providers: [],
